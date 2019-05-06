@@ -1,0 +1,112 @@
+body{
+    font-family: tahoma;
+    font-size: 17px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top {
+    background: #595959
+    ;
+    height: 100px;
+}
+#content #left {
+    width: 490px;
+    background: rgb(255, 255, 255);
+    height:551px;
+    float: left;
+}
+#content #right {
+    width:490px;
+    background: rgb(255, 255, 255);
+    height:551px;
+    float:left;
+    padding: 0px 0px 0px 20px;
+}
+#bottom {
+    background: rosybrown;
+    width:1000px;
+    height: 119px;
+    text-align: center ;
+    clear: left;
+    line-height: 119px;
+}
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    padding: 0px 40px 0px 40px;
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+}    
+#menu_top ul li a.active {
+    background: rgb(116, 145, 11);
+
+    
+}
+#content #left {
+    text-align: center;
+    
+}
+#content #left a {
+    text-decoration: none;
+}
+#content #right a {
+    text-decoration: none;
+}
+#content #right{
+    text-align: center;
+}
+#content #left img{
+    padding: 6px 0px 0px 24px;
+    width: 450;
+}
+#content #right img{
+    padding: 6px 0px 0px 0px;
+    width:450;  
+}
+#content #left h2 :hover {
+    color: orangered;   
+}
+#content #right h2 :hover {
+    color: orangered;
+}
+#menu_top img{
+    width:387px;
+    height:199px ;
+}
+#bottom a {
+    font-size: 18;
+    text-decoration: none;
+}
+#bottom :hover{
+    color: orangered;
+}
+#menu_top :hover{
+    color: orangered;
+}
+#banner form input {
+    margin-left: 40px;
+    
+    font-size: 24;
+    width: 570;
+    height: 33;
+    padding: 0px 0px 0px 0px;
+}
+#banner form {
+
+    width: 10;
+    height: 10;
+    padding: 15px 0px 0px 0px;
+}
+#bottom {
+    border-radius: 8px;
+}

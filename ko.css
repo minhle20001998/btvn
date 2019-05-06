@@ -1,0 +1,85 @@
+body{
+    font-family: tahoma;
+    font-size: 17px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top {
+    background: #595959
+    ;
+    height: 100px;
+}
+#banner {
+    width: 1000px;
+    background:#D9201D;
+    height: 100px;
+}
+#part_one #one_left {
+    width: 490px;
+    background: #ffffff;
+    height:551px;
+    float: left;
+}
+#part_one #one_right {
+    width: 490px;
+    background:#ffffff;
+    height:551px;
+    float: left;
+}
+#part_two #two_left {
+    width: 490px;
+    background: ffffff;
+    height:551px;
+    float: left;
+}
+#part_two #two_right {
+    width: 490px;
+    background:ffffff;
+    height:551px;
+    float: left;
+}
+#part_one #one_left {
+    text-align: center;
+}
+#part_one #one_left a{
+    text-decoration: none;
+}
+#part_one #one_right {
+    text-align: center;
+}
+#part_one #one_right a{
+    text-decoration: none;
+}
+#part_two #two_left {
+    text-align: center;
+}
+#part_two #two_left a{
+    text-decoration: none;
+}
+#part_two #two_right {
+    text-align: center;
+}
+#part_two #two_right a {
+    text-decoration: none;
+}
+#banner select {
+    width: 500;
+    height: 40;
+    padding: 4px 12px 0px 28px; 
+}
+#banner h2 {
+    margin-left:47px;
+    font-size: 23;
+}
+#part_one #one_left :hover {
+    color:orangered;
+}
+#part_one #one_right :hover {
+    color:orangered;
+}
+#part_two #two_left :hover {
+    color:orangered;
+}
+#part_two #two_right :hover {
+    color:orangered;
+}
